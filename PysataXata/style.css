@@ -1,0 +1,91 @@
+.rt{
+    font-family: 'Bad Script', cursive;
+    color: rgba(255, 255, 255, 0.925);
+    line-height: 1.4   ;
+    width: 100%;
+    max-width: 100px;
+    margin-left: 30px;
+    position: absolute;
+    font-size: 25px;
+}
+
+.rt::before{
+    position: fixed;
+    content:"";
+    display: block;
+    width: 1070px;
+    height: 3px;
+    background-color: aliceblue;
+    margin: 10px -20px auto;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("top-tomat-puzata-khata-960x540-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden    ;
+}
+
+
+.otomate{
+    padding-top: 20px;
+    margin-left: 200px;
+    width: 100%;
+    max-width: 900px;
+    font-family: 'Bad Script', cursive;
+    font-size: 20px;
+    
+    text-align: center;
+    color: rgba(251, 255, 0, 0.925)      
+}
+
+.shop:hover{
+    border: 3px solid;
+    border-color: aliceblue;
+    transition:  0.2s linear;
+}
+
+.shop{
+    position: absolute;
+    left: 1580px;
+    top: 30px;
+    border: 3px solid transparent;
+    
+    
+}
+.button{
+    color: rgba(255, 255, 255, 0.932);
+    font-size: 40px;
+    text-decoration: none;    
+    position: absolute;
+    left: 1670px;
+    top: 637px;
+    transition: color 0.2s linear;
+}
+
+.button:hover{
+    color: rgb(241, 51, 51);
+}
+
+.vid{
+    position: absolute;
+    bottom: 30px;
+    left: 90px;
+    color: rgb(255, 239, 11);
+    text-decoration: none;
+    font-family: 'Bad Script', cursive;
+    font-size: 27px;
+    transition: color 0.2s linear;
+}
+.vid:hover{
+    color: azure;
+}
+.vid:after{
+    content: "";
+    display: block;
+    width: 210px;
+    height: 3px;
+    background-color: rgb(255, 239, 11);
+}
